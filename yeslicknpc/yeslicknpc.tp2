@@ -20,21 +20,26 @@ ALWAYS
 	OUTER_SET is_tob = (GAME_IS ~bgt tob tutu tutu_totsc~) ? 1 : 0	// based on vanilla ToB engine
 	OUTER_SET is_bg2ee = (GAME_IS "bg2ee") ? 1 : 0					// b2gee
 	OUTER_SET is_eet = (GAME_IS "eet") ? 1 : 0						// eet
+	
+  ACTION_IF NOT GAME_IS ~bg2ee eet~ BEGIN 
 
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY Yeslicknoconvert BEGIN END
+	ACTION_DEFINE_ARRAY Yeslicknoconvert BEGIN setup END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
-	ACTION_DEFINE_ARRAY Yeslickreload BEGIN setup strings fatesp END
+	ACTION_DEFINE_ARRAY Yeslickreload BEGIN strings fatesp END
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
 			infer_charsets = 1
+			from_utf8 = 1
 		STR_VAR
 			tra_path = EVAL ~%MOD_FOLDER%/translations~
 			noconvert_array = Yeslicknoconvert
 			reload_array = Yeslickreload
 	END
+
+  END
 
 END
 
@@ -45,6 +50,11 @@ LANGUAGE ~English~
          ~english~
 		 ~yeslicknpc/translations/english/setup.tra~
 		 ~yeslicknpc/translations/english/strings.tra~
+		 
+LANGUAGE ~Simplified Chinese (by Yoshimo0417)~
+         ~schinese~
+		 ~yeslicknpc/translations/schinese/setup.tra~
+		 ~yeslicknpc/translations/schinese/strings.tra~
 
 
 /* ===================================== *
