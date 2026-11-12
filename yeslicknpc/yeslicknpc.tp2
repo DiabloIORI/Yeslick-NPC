@@ -22,14 +22,15 @@ ALWAYS
 	OUTER_SET is_eet = (GAME_IS "eet") ? 1 : 0						// eet
 
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY Yeslicknoconvert BEGIN END
+	ACTION_DEFINE_ARRAY Yeslicknoconvert BEGIN setup END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
-	ACTION_DEFINE_ARRAY Yeslickreload BEGIN setup strings fatesp END
+	ACTION_DEFINE_ARRAY Yeslickreload BEGIN strings fatesp END
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
 			infer_charsets = 1
+			from_utf8 = 1
 		STR_VAR
 			tra_path = EVAL ~%MOD_FOLDER%/translations~
 			noconvert_array = Yeslicknoconvert
@@ -45,6 +46,11 @@ LANGUAGE ~English~
          ~english~
 		 ~yeslicknpc/translations/english/setup.tra~
 		 ~yeslicknpc/translations/english/strings.tra~
+
+LANGUAGE ~Schinese~
+         ~schinese~
+		 ~yeslicknpc/translations/schinese/setup.tra~
+		 ~yeslicknpc/translations/schinese/strings.tra~
 
 
 /* ===================================== *
