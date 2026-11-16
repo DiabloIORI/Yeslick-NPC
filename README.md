@@ -11,7 +11,8 @@ Baldur's Gate Trilogy and EET<h3>
 
 
 **Authors:** Pixel Kaiser, K'aeloree, Lava Del'Vortel  
- **Mod Forum:** <a href="http://www.shsforums.net/forum/609-yeslick/">Yeslick</a><br /><br />
+**Mod Website:** <a href="http://www.spellholdstudios.net/ie/yeslick">Spellhold Studios</a>  
+**Mod Forum:** <a href="http://www.shsforums.net/forum/609-yeslick/">Yeslick</a><br /><br />
 
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/yeslicknpc-readme-english.html).
@@ -41,7 +42,7 @@ For people who remember Yeslick in Baldur's Gate, the authors have made the deci
 </details><br>
 
 
-Visit the <a href="http://www.shsforums.net/forum/608-Yeslick/">forum</a> for all the latest updates.
+Visit the <a href="http://www.spellholdstudios.net/ie/Yeslick">website</a> or <a href="http://www.shsforums.net/forum/608-Yeslick/">forum</a> for all the latest updates.
 
 
 <hr>
@@ -51,7 +52,7 @@ Visit the <a href="http://www.shsforums.net/forum/608-Yeslick/">forum</a> for al
 
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
-The Yeslick NPC mod should be compatible with all WeiDU mods, however, we cannot test every single one. It is only compatible with BGII: ToB. If you do encounter an error, please report it on the <a href="http://www.shsforums.net/forum/609-yeslick/">forums</a>.
+The Yeslick NPC mod should be compatible with all WeiDU mods, however, we cannot test every single one. It is only compatible with BGII: ToB. If you do encounter an error, please contact <a href="kae@spellholdstudios.net">K'aeloree</a> or alternatively post on the <a href="http://www.shsforums.net/forum/609-yeslick/">forums</a>.
 
 >Please install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. Some parts of the mod may not work correctly without it.
 <div align="right"><a href="#top">Back to top</a></div>
